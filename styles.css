@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #222;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  body {
+    padding: 20px;
+  }
+  
+  .title-page {
+    font-size: 30px;
+    color: rgb(140, 10, 10);
+  }
+  
+  .result {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  #calc-result {
+    padding: 15px 25px;
+    border-radius: 6px;
+    background-color: #01c452;
+    color: #fff;
+    text-shadow: 1px 1px 5px #000;
+    border: none;
+  }
+  
+  #calc-result:hover {
+    box-shadow: 0 0 0 2px rgb(0, 87, 0);
+  }
+  
+  #calc-result:active {
+    box-shadow: none;
+  }
